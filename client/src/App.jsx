@@ -10,7 +10,10 @@ import ToastNotification from './components/ToastNotification';
 const AppContent = () => {
   return (
     <div style={{ paddingBottom: '220px' }}>
-      <Navbar />
+      <Navbar
+  theme={theme}
+  toggleTheme={toggleTheme}
+/>
       
       <main style={{ maxWidth: '1400px', margin: '0 auto', paddingBottom: '40px' }}>
         <Dashboard />
